@@ -1,6 +1,6 @@
 # machine_learning_fraud
 
-Una plataforma de ventas online nos contrata para que realicemos un modelo que nos permita detectar un posible fraude dada cierta operación para ello contamos con un dataset que contiene las siguientes columnas:
+Se brinda un dataset con las siguientes columnas:
 
 ● Step: representa una unidad de tiempo donde 1 step equivale a 1 hora
 
@@ -22,9 +22,5 @@ Una plataforma de ventas online nos contrata para que realicemos un modelo que n
 
 ● isFraud: transacción fraudulenta
 
-
-Utilizando los modelos de clasificación vistos hasta el momento generar un notebook que permita de ser posible resolver el problema que nos está planteando el cliente.
-IMPORTANTE
-Sabemos que por cada transacción aprobada el porcentaje de ganancia es de un 20%, y por cada fraude aprobado se pierde el 100% del dinero de la transacción. Realizar un análisis y determinar un modelo que permita maximizar la ganancia de la empresa.
-https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset
+Se entrenan diversos modelos de clasificación para predecir si una operación resulta fraudulenta o no, teniendo en cuenta maximizar la ganancia de la empresa.
 
